@@ -1,0 +1,40 @@
+.single__project {
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.single__project:hover {
+  box-shadow: var(--shadow-4);
+}
+
+.single__project .single__project-img {
+  padding: 2rem;
+  background-color: var(--grey-400);
+  height: 20rem;
+}
+
+/* .single__project .single__project-img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+} */
+
+.single__project .single__project-img img {
+  height: 100%;
+}
+.single__project footer {
+  text-align: center;
+  padding: 1rem 1.25rem;
+  background-color: var(--white);
+  border-bottom-left-radius: var(--borderRadius);
+  border-bottom-right-radius: var(--borderRadius);
+}
+
+.single__project footer h5 {
+  margin-bottom: 0px;
+  color: var(--grey-900);
+  font-weight: 500;
+}
