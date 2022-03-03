@@ -1,3 +1,6 @@
+.single__links {
+  display: inline-block;
+}
 .single__project {
   box-shadow: var(--shadow-1);
   transition: var(--transition);

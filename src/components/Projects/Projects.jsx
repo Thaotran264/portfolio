@@ -20,9 +20,12 @@ const Projects = () => {
 
     return (
         <div className='projects__content'>
-            {items.slice(0, slice).map(item =>
-                <Project key={item.id} item={item} />
-            )}
+            <div className='list__projects'>
+                {items.slice(0, slice).map(item =>
+                    <Project item={item} key={item.id} />
+
+                )}
+            </div>
             <div className='btn-group'>
                 {slice < items.length &&
                     <button className='btn' onClick={handleLoadMore}>Load more</button>

@@ -1,27 +1,31 @@
 import IMG1 from "./images/undraw1.svg";
 import IMG2 from "./images/undraw2.svg";
-import IMG3 from "./images/undraw3.svg";
+import IMG3 from "./images/todo-redux-ant.png";
 import IMG4 from "./images/undraw4.svg";
 import IMG5 from "./images/undraw5.svg";
 import IMG6 from "./images/undraw6.svg";
 import IMG7 from "./images/undraw7.svg";
 import IMG8 from "./images/undraw8.svg";
-
+import Pagination from "./images/paganation.png";
+import Blog from "./images/blog.png";
 const data = [
   {
     id: 1,
     title: "Pagination",
-    image: IMG1,
+    image: Pagination,
+    live: "https://pagination-xi.vercel.app/",
   },
   {
     id: 2,
-    title: "Redux",
-    image: IMG2,
+    title: "Beautiful places Japanse Blog",
+    image: Blog,
+    live: "https://react-blog-v4.vercel.app/",
   },
   {
     id: 3,
-    title: "Filter",
+    title: "Todo Redux App",
     image: IMG3,
+    live: "https://todo-redux-nk6wwn51l-thaotran264.vercel.app/",
   },
   {
     id: 4,
